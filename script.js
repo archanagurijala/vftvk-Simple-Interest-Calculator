@@ -9,7 +9,7 @@ function compute() {
     var years = document.getElementById("years").value;
 
     if(parseInt(principal) <= 0 ) {
-        alert("enter a positive number");
+        window.alert("enter a positive number");
         document.getElementById('principal').focus();
     }
     
