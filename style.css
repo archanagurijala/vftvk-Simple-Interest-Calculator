@@ -1,4 +1,36 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  color: #808080;
+}
 
+.siCalc {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px 20px;
+  width: 500px;
+  height: 350px;
+  margin: 2em auto;
+}
 
+.showCalc {
+  padding: 0 5em;
+}
+
+table tr td {
+  margin: 10px 0;
+  padding: 3px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.highlight {
+    background-color: #fef851;
+}
