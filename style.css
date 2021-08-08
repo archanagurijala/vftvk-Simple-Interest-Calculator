@@ -4,6 +4,7 @@ body {
   padding: 0;
   color: #000;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
 }
 header {
   color: #808080;
@@ -14,7 +15,6 @@ header {
   border-radius: 20px;
   padding: 10px 20px 20px;
   width: 500px;
-  height: 350px;
   margin: 2em auto;
 }
 

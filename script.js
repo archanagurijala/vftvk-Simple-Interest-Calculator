@@ -11,6 +11,9 @@ function compute() {
     if(parseInt(principal) <= 0 ) {
         window.alert("enter a positive number");
         document.getElementById('principal').focus();
+        document.getElementById('displayText').style.display =  'none';
+    } else {
+        document.getElementById('displayText').style.display =  'block';
     }
     
     var simpleInterest = parseInt(principal * rate * years)/100;
